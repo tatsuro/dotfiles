@@ -1,0 +1,16 @@
+escape ^tt
+vbell off
+shell zsh
+hardstatus alwayslastline "[%02c] %`%-w%{=b bw}%n %t%{-}%+w"
+#caption always "%{= wk} %-w%{=bu dr}%n %t%{-}%+w %= %{=b wb}%y/%m/%d(%D) %{=b wb}%c"
+
+startup_message off
+#shelltitle "$ |bash"
+defscrollback 10000
+bind s
+
+autodetach on  # detach on hangup
+
+logfile "$HOME/.screen/screen-%Y%m%d-%n.log"
+log on
+deflog on

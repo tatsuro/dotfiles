@@ -1,0 +1,20 @@
+[user]
+  user = tatsuro
+  name = "Tatsuro BABA"
+  email = tatsuro@harakirisoul.com
+
+[color]
+  status = auto
+  diff = auto
+  branche = auto
+  interactive = auto
+
+[alias]
+  co = checkout
+  s = status
+  pr = pull --rebase
+  ci = commit -v
+  one = log --oneline
+
+[core]
+	editor = vi

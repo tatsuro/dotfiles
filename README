@@ -1,0 +1,14 @@
+/*------------------------------------
+ * dotfiles
+ * author : Tatsuro BABA
+ * email : tatsuro@harakirisoul.com
+------------------------------------*/
+
+this repository has my dotfiles which is package of app configuration files.
+
+/dotfiles
+  |
+  |- .zshrc
+  |- .vimrc
+  |- .screenrc
+  |- .gemrc
